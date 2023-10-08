@@ -1,0 +1,93 @@
+/*
+selector{
+    propiedad1:"valor";
+    propiedad2:"valor";
+}
+selectores: Universal es mjuy comun para los margenes y pading=  *{
+
+}
+
+id= si le quiero dar un estilo en particular 
+*(nombre id)
+
+class= para varias cosas iguales, ej varios DIV
+.class{}
+
+*/
+
+:root{
+    /*paleta de colores cuando la quiera usar llamo   color: var(--colorboton); */
+    --colorboton: #0bbd0b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Verdana', sans-serif;
+    color: rgb(15, 13, 13);
+
+}
+/*para que sea reesponsive*/
+.flex-contaiber{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.navbar{
+    background-color: #323b41;
+    color: white;
+    padding: 10px;
+    font-size: medium;
+}
+
+
+.verdesapo{
+    background-color: var(--colorboton);
+    border: 1px solid black;
+}
+
+.card-img-overlay{
+    width: 50%;
+    left: auto;
+    margin-top: 200px;
+
+    
+}
+
+.orador{
+    text-align: center;
+    margin: 10px;
+}
+
+.card-body-bsas{
+    background-color: #323b41;
+    color: aqua;
+    
+}
+
+footer{
+    background-color: #1a5a45;
+    color: white;
+    padding: 10px;
+    font-size: medium;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
