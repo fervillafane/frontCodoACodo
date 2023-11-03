@@ -39,7 +39,10 @@ html {
     flex-wrap: wrap;
 }
 
-
+.col-2{
+    flex: auto;
+    width: 20px;
+}
 .navbar{
     background-color: #323b41;
     color: white;
@@ -68,8 +71,19 @@ html {
 
 .card-body-bsas{
     background-color: #323b41;
-    color: aqua;
+    color: white;
     
+}
+.col-md-8{
+    background-color: #323b41;
+    
+
+}
+.row g-2{
+    left: 30px;
+}
+.mb-3{
+    width: 50%;
 }
 
 footer{
@@ -80,6 +94,8 @@ footer{
     
 
 }
+
+
 
 
 
