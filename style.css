@@ -79,11 +79,20 @@ html {
     
 
 }
-.row g-2{
+.row {
     left: 30px;
 }
 .mb-3{
     width: 50%;
+    
+}
+.mb-4{
+    margin-top: 5%;
+}
+.mb-5{
+    margin-left: 5px;
+    border-color: blue;
+    
 }
 
 footer{

@@ -39,11 +39,11 @@
         
     </header>
     <main>
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center mb-4">
 
         
-        <div class="card" style="width: 18rem;">
-            <div class="card-body text-center justify-content-around">
+        <div class="card " style="width: 18rem;">
+            <div class="card-body text-center  mb-5">
                 <h5 class="card-title">Estudiante</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
                 <h4>80 %</h4>
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="card" style="width: 18rem;">
-            <div class="card-body text-center">
+            <div class="card-body text-center mb-5">
                 <h5 class="card-title">Trainee</h5>
                 <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
                 <h4>50 %</h4>
@@ -69,17 +69,17 @@
         </div>
 
     </div>
-    <div class="text-center">
+    <div class="text-center ">
         <p>VENTA</p>
         <H2>VALOR DE TICKET $200</H2>
     </div>
-    <div class="row g-2">
+    <div class="container mb-3">
         <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            <div class="col mb-4">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
             </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            <div class="col mb-4">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
             </div>
         </div>
         <div class="col">
@@ -87,39 +87,35 @@
         </div>
 
         <div class="row g-3 align-items-center">
-        <div class="col-md">
-            <div class="form-floating">
+        <div class="col-md mb-4">
+            <div class="form-floating ">
             <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" >
-            <label for="floatingInputGrid">Cantidad</label>
+            <imput for="floatingInputGrid" type="number" id="cantidad" >Cantidad</imput>
+    
             </div>
         </div>
-        <div class="col-md">
-            <div class="form-floating">
+        <div class="col-md mb-3">
+            <div class="form-floating mb-4">
             <select class="form-select" id="floatingSelectGrid">
                 <option selected>Categoria</option>
-                <option value="1">Estudiante</option>
-                <option value="2">Trainee</option>
-                <option value="3">Junior</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="trainee">Trainee</option>
+                <option value="junior">Junior</option>
             </select>
             <label for="floatingSelectGrid"></label>
             </div>
         </div>
+        <button type="button" class="btn btn-primary " disabled>Total a pagar: $</button>
         <div class="row">
-            <div class="mb-3">
+            <div class="mb-3 mb-4">
             <button class="btn fs-5 col-12" type="reset" style="background-color: #96c93e; color:white">Borrar</button>
             </div>
-            <div class="mb-3">
+            <div class="mb-3 mb-4">
             <button class="btn fs-5 col-12" type="submit" style="background-color: #96c93e; color:white">Resumen</button>
             </div>
         </div>
-        
-
-        
     </div>
 </div>
-    
-
-
     </main>
     <footer>
         <div>
